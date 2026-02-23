@@ -1,0 +1,16 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+print("type the appropriate answer that you feel is right, if typed the wrong answer will end up the game as GAME OVER")
+step_1 = input('There are two rouds, choose "Left" or "Right" : ')
+if step_1 =="Left":
+    step_2 = input('congratulations you went to next step !\n there '
+                   'is a lake in front of you type if you want to "Swim" or "wait" : ')
+    if step_2 == "wait":
+        step_3 = input('congratulations you went to next step !\n Now '
+                       'there are THREE door\'s in '
+                       'front of you namely Red , Blue , Yellow\n Type "Red" if '
+                       'you want to enter Red or "Blue" or "Yellow" : ')
+        if step_3 == "Yellow":
+            print("Congratulations you Won the game!!")
+else:
+    print("you chose the wrong path, Game Over" )
